@@ -11,10 +11,27 @@
     <string name="item_contact_header">Contact :</string>
     <string name="contact_placeholder">0533555 56 54</string>
 
-    <!-- Bar items -->
+    <!--Bar item strings START-->
+
+    <!--Bar item 1-->
     <string name="bar_1_name">DRCK SOKAK</string>
-    <string name="bar_1_desc">In Istanbul it is hard to find a Rock Bar with historical roots. DRCK SOKAK is one of them. \n If you are near Taksim your banging head is welcome there.</string>
+    <string name="bar_1_desc">\t\t In Istanbul it is hard to find a Rock Bar with historical roots. DRCK SOKAK is one of them. \n\t\t If you are near Taksim your banging head is welcome there.</string>
     <string name="bar_1_contact">+90 212 684 48 98</string>
+
+    <!--Bar item 2-->
+
+    <string name="bar_2_name">Ponies Bar</string>
+    <string name="bar_2_desc">\t\t\t Another Bar with fictional intents to fill the list.</string>
+    <string name="bar_2_contact">+20 0045 455 68 8</string>
+
+    <!--Bar item 3-->
+
+    <string name="bar_3_name">U-da-man</string>
+    <string name="bar_3_desc">\t\t\t Pun intended bar name.</string>
+    <string name="bar_3_contact">555 667 85 85</string>
+    <string name="item_header_placeholder">Header</string>
+
+    <!--Bar item strings END-->
 
 
 </resources>

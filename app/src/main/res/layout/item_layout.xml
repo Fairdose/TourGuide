@@ -12,22 +12,19 @@
         android:id="@+id/item_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="26dp"
-        android:maxHeight="64dp"
         android:layout_marginLeft="@dimen/item_header_margin_h"
         android:layout_marginRight="@dimen/item_header_margin_h"
         android:layout_marginTop="@dimen/item_header_margin_v"
         android:layout_marginBottom="@dimen/item_header_margin_v"
-        android:gravity="center_vertical"
-        android:textSize="24sp"
-        android:text="Header"/>
+        android:textSize="32sp"
+        android:text="@string/item_header_placeholder"/>
 
     <LinearLayout
         android:id="@+id/item_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:visibility="visible">
+        android:visibility="gone">
 
         <ImageView
             android:id="@+id/item_image"
@@ -36,13 +33,16 @@
             android:contentDescription="@string/item_image_desc"
             android:scaleType="centerCrop"
             android:src="@drawable/bar_1"
-            android:layout_marginRight="@dimen/item_header_margin_h"
-            android:layout_marginLeft="@dimen/item_header_margin_h"/>
+            android:layout_marginBottom="@dimen/item_image_margin_v" />
 
         <TextView
             android:id="@+id/item_desc"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_desc_margin_h"
+            android:layout_marginRight="@dimen/item_desc_margin_h"
+            android:layout_marginTop="@dimen/item_desc_margin_v"
+            android:layout_marginBottom="@dimen/item_desc_margin_v"
             android:textSize="@dimen/item_default_text_size"
             android:text="@string/item_placeholder_line"/>
 
@@ -50,12 +50,20 @@
             android:id="@+id/item_contact_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_contact_margin_h"
+            android:layout_marginRight="@dimen/item_contact_margin_h"
+            android:textSize="@dimen/item_contact_header_text_size"
             android:text="@string/item_contact_header"/>
 
         <TextView
             android:id="@+id/item_contact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_contact_margin_h"
+            android:layout_marginRight="@dimen/item_contact_margin_h"
+            android:layout_marginTop="@dimen/item_contact_margin_v"
+            android:layout_marginBottom="@dimen/item_contact_margin_v"
+            android:textSize="@dimen/item_default_text_size"
             android:text="@string/contact_placeholder"/>
 
     </LinearLayout>

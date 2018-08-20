@@ -5,6 +5,12 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="appbar_padding_top">8dp</dimen>
     <dimen name="item_header_margin_v">4dp</dimen>
-    <dimen name="item_header_margin_h">8dp</dimen>
+    <dimen name="item_header_margin_h">24dp</dimen>
     <dimen name="item_default_text_size">16sp</dimen>
+    <dimen name="item_image_margin_v">15dp</dimen>
+    <dimen name="item_contact_header_text_size">24sp</dimen>
+    <dimen name="item_contact_margin_h">24dp</dimen>
+    <dimen name="item_contact_margin_v">8dp</dimen>
+    <dimen name="item_desc_margin_v">16dp</dimen>
+    <dimen name="item_desc_margin_h">12dp</dimen>
 </resources>
