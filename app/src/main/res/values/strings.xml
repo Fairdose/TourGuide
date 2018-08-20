@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_1">Bars</string>
+    <string name="tab_2">Food</string>
+    <string name="tab_3">Touristic</string>
+    <string name="tab_4">Events</string>
+    <string name="item_image_desc">item_image</string>
+    <string name="item_placeholder_line">This is a text of the item.   Which is good with this second line</string>
+    <string name="item_contact_header">Contact :</string>
+    <string name="contact_placeholder">0533555 56 54</string>
+
+    <!-- Bar items -->
+    <string name="bar_1_name">DRCK SOKAK</string>
+    <string name="bar_1_desc">In Istanbul it is hard to find a Rock Bar with historical roots. DRCK SOKAK is one of them. \n If you are near Taksim your banging head is welcome there.</string>
+    <string name="bar_1_contact">+90 212 684 48 98</string>
+
+
+</resources>
