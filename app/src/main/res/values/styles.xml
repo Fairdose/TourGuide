@@ -1,20 +1,63 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="item_layout_wrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:maxHeight">64dp</item>
+        <item name="android:minHeight">26dp</item>
+        <item name="android:orientation">vertical</item>
     </style>
 
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+    <style name="item_style_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/item_header_margin_h</item>
+        <item name="android:layout_marginRight">@dimen/item_header_margin_h</item>
+        <item name="android:layout_marginTop">@dimen/item_header_margin_v</item>
+        <item name="android:layout_marginBottom">@dimen/item_header_margin_v</item>
+        <item name="android:textSize">32sp</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="item_style_content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:visibility">gone</item>
+    </style>
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="item_style_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">124dp</item>
+        <item name="android:contentDescription">@string/item_image_desc</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginBottom">@dimen/item_image_margin_v</item>
+    </style>
 
+    <style name="item_style_description">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/item_desc_margin_h</item>
+        <item name="android:layout_marginRight">@dimen/item_desc_margin_h</item>
+        <item name="android:layout_marginBottom">@dimen/item_desc_margin_v</item>
+        <item name="android:textSize">@dimen/item_default_text_size</item>
+    </style>
+
+    <style name="item_style_contact_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/item_contact_margin_h</item>
+        <item name="android:layout_marginRight">@dimen/item_contact_margin_h</item>
+        <item name="android:textSize">@dimen/item_contact_header_text_size</item>
+    </style>
+
+    <style name="item_style_contact">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/item_contact_margin_h</item>
+        <item name="android:layout_marginRight">@dimen/item_contact_margin_h</item>
+        <item name="android:layout_marginTop">@dimen/item_contact_margin_v</item>
+        <item name="android:layout_marginBottom">@dimen/item_contact_margin_v</item>
+        <item name="android:textSize">@dimen/item_default_text_size</item>
+    </style>
 </resources>

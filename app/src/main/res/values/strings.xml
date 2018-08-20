@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">TourGuide</string>
-    <string name="action_settings">Settings</string>
-    <string name="section_format">Hello World from section: %1$d</string>
     <string name="tab_1">Bars</string>
     <string name="tab_2">Food</string>
     <string name="tab_3">Touristic</string>
@@ -10,6 +8,7 @@
     <string name="item_placeholder_line">This is a text of the item.   Which is good with this second line</string>
     <string name="item_contact_header">Contact :</string>
     <string name="contact_placeholder">0533555 56 54</string>
+    <string name="item_header_placeholder">Header</string>
 
     <!--Bar item strings START-->
 
@@ -18,20 +17,54 @@
     <string name="bar_1_desc">\t\t In Istanbul it is hard to find a Rock Bar with historical roots. DRCK SOKAK is one of them. \n\t\t If you are near Taksim your banging head is welcome there.</string>
     <string name="bar_1_contact">+90 212 684 48 98</string>
 
-    <!--Bar item 2-->
-
     <string name="bar_2_name">Ponies Bar</string>
-    <string name="bar_2_desc">\t\t\t Another Bar with fictional intents to fill the list.</string>
+    <string name="bar_2_desc">\t\t Another Bar with fictional intents to fill the list.</string>
     <string name="bar_2_contact">+20 0045 455 68 8</string>
 
-    <!--Bar item 3-->
-
     <string name="bar_3_name">U-da-man</string>
-    <string name="bar_3_desc">\t\t\t Pun intended bar name.</string>
+    <string name="bar_3_desc">\t\t Pun intended bar name.</string>
     <string name="bar_3_contact">555 667 85 85</string>
-    <string name="item_header_placeholder">Header</string>
 
-    <!--Bar item strings END-->
+    <!--Food item strings START-->
 
+    <string name="food_1_name">Galata Tower</string>
+    <string name="food_1_desc">\t\tWouldn\'t it be nice to dine while Istanbul is under your feet.</string>
+    <string name="food_1_contact">0212 845 45 45</string>
+
+    <string name="food_2_name">Bosphorus</string>
+    <string name="food_2_desc">\t\tWith the smell of the sea and view of Asia meeting Europa you\'ll surely crave for some cuisine. Make sure to reserve your place, you may not be able to find a place to sit and enjoy good food.</string>
+    <string name="food_2_contact">reservations@bosphorus.com</string>
+
+    <string name="food_3_name">Flower Passage</string>
+    <string name="food_3_desc">\t\tAre you sad? Want to lament&#8230; Or you want to celebrate an event with appetizers and Raki. Flower Passage is just for you.</string>
+    <string name="food_3_contact">0212 248 86 24</string>
+
+    <!--Tourist item strings START-->
+
+    <string name="tourist_1_name">Hagia Sophia</string>
+    <string name="tourist_1_desc">\t\tBuilt in 537 AD, it is the epitome of Byzantine architecture. Right now it is a museum which is visited annually by 3.3 million people.</string>
+    <string name="tourist_1_contact">http://ayasofyamuzesi.gov.tr/</string>
+
+    <string name="tourist_2_name">Basilica Cistern</string>
+    <string name="tourist_2_desc">\t\tBuilt in 6th century by Justinian I it is one of many cisterns of Istanbul. Featured in many novels and films (Including 007:From Russia with Love) Basilica Cistern is one of the tourist attractions in Sultanahmet.</string>
+    <string name="tourist_2_contact">http://yerebatan.com/</string>
+
+    <string name="tourist_3_name">Topkapi Palace</string>
+    <string name="tourist_3_desc">\t\tBuilt 6 years after the Conquest of Constantinople. Became the house of the Ottoman Dynasty from Mehmed II to the Fall of the Dynasty. With its complex structure and treasures the Topkapi Palace is worth seeing. </string>
+    <string name="tourist_3_contact">http://topkapisarayi.gov.tr/en</string>
+
+    <string name="tourist_4_name">Bosphorus Tour</string>
+    <string name="tourist_4_desc">\t\tWant see both sides of Istanbul and where Asia meets Europe? Look no more and book yourself a Bosphorus Tour ticket.</string>
+    <string name="tourist_4_contact">http://bosphorustours.com/</string>
+
+    <!--Event item strings START-->
+
+    <string name="event_1_name">Coffee Fest Istanbul</string>
+    <string name="event_1_desc">\t\tCoffee! Meaning of the mornings, fuel of the coding. Details are at website.</string>
+    <string name="event_1_contact">http://istanbulcoffeefestival.com</string>
+
+    <string name="event_2_name">E-Tohum (E-Seed)</string>
+    <string name="event_2_desc">\t\tIf you are an investor or looking for networking, E-Tohum is the right place for you. It is an event which both junior and senior investors, businessman gather to share their experience. </string>
+    <string name="event_2_contact">https://etohum.com/</string>
 
 </resources>

@@ -1,7 +1,5 @@
 package com.example.st_peter_hq.tourguide;
 
-import android.media.AudioManager;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -14,10 +12,10 @@ import java.util.ArrayList;
 
 public class BarFragment extends Fragment {
 
+    //Define global variables for active item layout
+
     private boolean mActiveItem = false;
-
     private View mActiveView;
-
     private int mActivePosition;
 
     public BarFragment() {
@@ -30,6 +28,8 @@ public class BarFragment extends Fragment {
 
         final ArrayList<Item> items = new ArrayList<Item>();
 
+        //add the items to the item array
+
         items.add(new Item(R.string.bar_1_name, R.string.bar_1_desc, R.drawable.bar_1, R.string.bar_1_contact));
         items.add(new Item(R.string.bar_2_name, R.string.bar_2_desc, R.drawable.bar_2, R.string.bar_2_contact));
         items.add(new Item(R.string.bar_3_name, R.string.bar_3_desc, R.drawable.bar_3, R.string.bar_3_contact));
@@ -40,6 +40,8 @@ public class BarFragment extends Fragment {
         ListView listView = setLayout.findViewById(R.id.item_listing);
 
         listView.setAdapter(adapter);
+
+        //Let's add a small but powerful hide and show detail method.
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

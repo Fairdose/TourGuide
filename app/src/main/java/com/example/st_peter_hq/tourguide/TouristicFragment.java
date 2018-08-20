@@ -12,6 +12,8 @@ import java.util.ArrayList;
 
 public class TouristicFragment extends Fragment {
 
+    //Define global variables for active item layout
+
     private boolean mActiveItem = false;
 
     private View mActiveView;
@@ -28,9 +30,12 @@ public class TouristicFragment extends Fragment {
 
         final ArrayList<Item> items = new ArrayList<Item>();
 
-        items.add(new Item(R.string.bar_1_name, R.string.bar_1_desc, R.drawable.bar_1, R.string.bar_1_contact));
-        items.add(new Item(R.string.bar_2_name, R.string.bar_2_desc, R.drawable.bar_2, R.string.bar_2_contact));
-        items.add(new Item(R.string.bar_3_name, R.string.bar_3_desc, R.drawable.bar_3, R.string.bar_3_contact));
+        //add the items to the item array
+
+        items.add(new Item(R.string.tourist_1_name, R.string.tourist_1_desc, R.drawable.trst_1, R.string.tourist_1_contact));
+        items.add(new Item(R.string.tourist_2_name, R.string.tourist_2_desc, R.drawable.trst_2, R.string.tourist_2_contact));
+        items.add(new Item(R.string.tourist_3_name, R.string.tourist_3_desc, R.drawable.trst_3, R.string.tourist_3_contact));
+        items.add(new Item(R.string.tourist_4_name, R.string.tourist_4_desc, R.drawable.trst_4, R.string.tourist_4_contact));
 
 
         ItemAdapter adapter = new ItemAdapter(getActivity(), items);
@@ -38,6 +43,8 @@ public class TouristicFragment extends Fragment {
         ListView listView = setLayout.findViewById(R.id.item_listing);
 
         listView.setAdapter(adapter);
+
+        //Let's add a small but powerful hide and show detail method.
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

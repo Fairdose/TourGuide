@@ -1,70 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:overScrollMode="never"
-    android:maxHeight="64dp"
-    android:minHeight="26dp"
-    android:orientation="vertical" >
+    style="@style/item_layout_wrapper">
 
     <TextView
         android:id="@+id/item_header"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/item_header_margin_h"
-        android:layout_marginRight="@dimen/item_header_margin_h"
-        android:layout_marginTop="@dimen/item_header_margin_v"
-        android:layout_marginBottom="@dimen/item_header_margin_v"
-        android:textSize="32sp"
-        android:text="@string/item_header_placeholder"/>
+        android:text="@string/item_header_placeholder"
+        style="@style/item_style_header" />
 
     <LinearLayout
         android:id="@+id/item_content"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:visibility="gone">
+        style="@style/item_style_content">
 
         <ImageView
             android:id="@+id/item_image"
-            android:layout_width="match_parent"
-            android:layout_height="124dp"
-            android:contentDescription="@string/item_image_desc"
-            android:scaleType="centerCrop"
             android:src="@drawable/bar_1"
-            android:layout_marginBottom="@dimen/item_image_margin_v" />
+            style="@style/item_style_image" />
 
         <TextView
             android:id="@+id/item_desc"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/item_desc_margin_h"
-            android:layout_marginRight="@dimen/item_desc_margin_h"
-            android:layout_marginTop="@dimen/item_desc_margin_v"
-            android:layout_marginBottom="@dimen/item_desc_margin_v"
-            android:textSize="@dimen/item_default_text_size"
-            android:text="@string/item_placeholder_line"/>
+            android:text="@string/item_placeholder_line"
+            style="@style/item_style_description" />
 
         <TextView
             android:id="@+id/item_contact_header"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/item_contact_margin_h"
-            android:layout_marginRight="@dimen/item_contact_margin_h"
-            android:textSize="@dimen/item_contact_header_text_size"
-            android:text="@string/item_contact_header"/>
+            android:text="@string/item_contact_header"
+            style="@style/item_style_contact_header" />
 
         <TextView
             android:id="@+id/item_contact"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/item_contact_margin_h"
-            android:layout_marginRight="@dimen/item_contact_margin_h"
-            android:layout_marginTop="@dimen/item_contact_margin_v"
-            android:layout_marginBottom="@dimen/item_contact_margin_v"
-            android:textSize="@dimen/item_default_text_size"
-            android:text="@string/contact_placeholder"/>
+            android:text="@string/contact_placeholder"
+            style="@style/item_style_contact" />
 
     </LinearLayout>
 

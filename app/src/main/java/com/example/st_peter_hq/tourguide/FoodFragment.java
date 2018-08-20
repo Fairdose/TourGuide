@@ -12,10 +12,10 @@ import java.util.ArrayList;
 
 public class FoodFragment extends Fragment {
 
+    //Define global variables for active item layout
+
     private boolean mActiveItem = false;
-
     private View mActiveView;
-
     private int mActivePosition;
 
     public FoodFragment() {
@@ -28,9 +28,11 @@ public class FoodFragment extends Fragment {
 
         final ArrayList<Item> items = new ArrayList<Item>();
 
-        items.add(new Item(R.string.bar_1_name, R.string.bar_1_desc, R.drawable.bar_1, R.string.bar_1_contact));
-        items.add(new Item(R.string.bar_2_name, R.string.bar_2_desc, R.drawable.bar_2, R.string.bar_2_contact));
-        items.add(new Item(R.string.bar_3_name, R.string.bar_3_desc, R.drawable.bar_3, R.string.bar_3_contact));
+        //add the items to the item array
+
+        items.add(new Item(R.string.food_1_name, R.string.food_1_desc, R.drawable.food_1, R.string.food_1_contact));
+        items.add(new Item(R.string.food_2_name, R.string.food_2_desc, R.drawable.food_2, R.string.food_2_contact));
+        items.add(new Item(R.string.food_3_name, R.string.food_3_desc, R.drawable.food_3, R.string.food_3_contact));
 
 
         ItemAdapter adapter = new ItemAdapter(getActivity(), items);
@@ -38,6 +40,8 @@ public class FoodFragment extends Fragment {
         ListView listView = setLayout.findViewById(R.id.item_listing);
 
         listView.setAdapter(adapter);
+
+        //Let's add a small but powerful hide and show detail method.
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
